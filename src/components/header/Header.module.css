@@ -1,0 +1,37 @@
+.headerContainer{
+    background-color: #202328;
+    width: 100%;
+}
+
+.headerMain {
+    width: 1339px;
+    min-height: 36px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+}
+
+.topMenuUl {
+   
+    margin: 0; 
+	padding: 0; 
+}
+
+.topMenuItem {
+    display:inline-block;
+    text-align: center;
+    width: 56px;
+    
+    padding-left: 70px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: auto;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 13px;
+    
+    color: #FFFFFF;
+
+}
