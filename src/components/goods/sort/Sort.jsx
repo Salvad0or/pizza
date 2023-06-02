@@ -12,7 +12,6 @@ const Sort = () => {
 					<li className={style.sortUl}>Отзывам</li>
 				</ul>
 			</div>
-			<div className={style.goodsRow}>goods</div>
 		</div>
 	);
 };

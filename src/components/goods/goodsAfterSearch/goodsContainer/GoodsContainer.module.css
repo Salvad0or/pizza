@@ -1,0 +1,20 @@
+.container {
+    width: 235px;
+    height: 445px;
+    box-sizing: border-box;
+    padding: 16px;
+
+    border: 1px solid #9F9F9F;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

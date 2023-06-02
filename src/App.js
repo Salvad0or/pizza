@@ -1,4 +1,4 @@
-import GoodsAfterSearch from "./components/goods/goodsAfterSearch/GoodsAfterSearch";
+import GoodsAfterSearch from "./components/goods/goodsAfterSearch/goodsAfterSearch/GoodsAfterSearch";
 import Header from "./components/header/Header";
 import style from "./styles/App.module.css";
 
