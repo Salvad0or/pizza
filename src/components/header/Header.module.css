@@ -1,12 +1,14 @@
 .headerContainer{
     background-color: #202328;
-    width: 100%;
 }
 
 .headerMain {
-    width: 1339px;
+    
+    max-width: 1339px;
+    
+    margin-left: auto;
+    margin-right: auto;
     min-height: 36px;
-    margin: 0 auto;
     display: flex;
     justify-content: right;
 }
@@ -35,3 +37,20 @@
     color: #FFFFFF;
 
 }
+
+.thirtyLevelHeader{
+
+    margin-top: 15px;
+    width: 100%;
+    background: rgba(87, 65, 217, 0.04);
+    min-height: 50px;
+
+}
+
+.thirtyLevelHeaderMain{
+    width: 1339px;
+    margin: auto;
+    position: relative;
+
+}
+

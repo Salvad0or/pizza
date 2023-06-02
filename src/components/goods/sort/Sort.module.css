@@ -1,0 +1,43 @@
+.container {
+    max-width: 1339px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+}
+
+.sortSort {
+    margin-right: 20px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+ 
+    color: #9F9F9F;
+}
+
+.sortLi {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sortUl {
+    display: inline-block;
+    padding-right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #9F9F9F;
+
+}
