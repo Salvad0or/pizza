@@ -6,7 +6,9 @@ function App() {
 	return (
 		<div className={style.container}>
 			<Header />
-			<GoodsAfterSearch />
+			<div className={style.goods}>
+				<GoodsAfterSearch />
+			</div>
 		</div>
 	);
 }

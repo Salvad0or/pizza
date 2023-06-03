@@ -7,7 +7,13 @@ const GoodsAfterSearch = () => {
 	return (
 		<div className={style.container}>
 			<Sort />
-			<GoodsContainer />
+			<div className={style.goodsRow}>
+				<GoodsContainer className={style.goods} />
+				<GoodsContainer />
+				<GoodsContainer />
+				<GoodsContainer />
+				<GoodsContainer />
+			</div>
 		</div>
 	);
 };

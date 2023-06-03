@@ -1,13 +1,16 @@
 .container {
-    max-width: 1339px;
+    width: 1339px;
     margin-left: auto;
     margin-right: auto;
-    
 }
-
 
 .goodsRow {
     margin-top: 10px;
-    background-color: red;
+    display: flex;
+    
+    
+}
 
+.goods{
+    padding-right: 17px;
 }
