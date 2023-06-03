@@ -9,12 +9,137 @@
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
 }
 
-.header{
+/* Header */
+.header {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.article {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+
+
+
+
+    color: #9F9F9F;
+}
+
+/* SVG */
+.sprite {
+    display: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.heartSvg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    padding-right: 15px;
+    fill: #9F9F9F
+}
+
+.analyticsSvg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: #9F9F9F
+}
+
+
+/* Photo */
+
+.goodsPhoto {
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 191px;
+    height: 189px;
+}
+
+
+/* Raiting */
+
+.rating {
+    margin-top: 7px;
+}
+
+/* Description */
+
+.description {
+    margin-top: 7px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Text */
+
+    color: #333333;
+}
+
+/* isInStock */
+
+.inStock {
+
+    margin-top: 7px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #333333;
+
+}
+
+/* bottom */
+
+.price {
+
+    padding-top: 40px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+
+}
+
+.numerus{
+
+    padding-top: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+  
+
+    color: #212121;
+}
+
+
+.cart {
+    height: 35px;
+    width: 35px;
+
 }
