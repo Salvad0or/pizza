@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Header.module.css";
 import MyInput from "../UI/MyInput";
+import RightSide from "./rightSide/RightSide";
 
 const Header = () => {
 	return (
@@ -19,6 +20,7 @@ const Header = () => {
 			<div className={style.thirtyLevelHeader}>
 				<div className={style.thirtyLevelHeaderMain}>
 					<MyInput />
+					<RightSide />
 				</div>
 			</div>
 		</div>

@@ -2,6 +2,7 @@ import React from "react";
 import style from "./GoodsAfterSearch.module.css";
 import Sort from "../../sort/Sort";
 import GoodsContainer from "../goodsContainer/GoodsContainer";
+import RightSide from "../../../header/rightSide/RightSide";
 
 const GoodsAfterSearch = () => {
 	return (
