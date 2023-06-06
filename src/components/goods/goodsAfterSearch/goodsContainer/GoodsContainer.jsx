@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./GoodsContainer.module.css";
+import cart from "../../../../assets/img/Cart.png";
 
 const GoodsContainer = () => {
 	return (
@@ -58,10 +59,7 @@ const GoodsContainer = () => {
 			<div className={style.price}>
 				<span className={style.numerus}>183000Р</span>
 
-				<img
-					className={style.cart}
-					src="https://i.pinimg.com/564x/cb/c5/24/cbc52492c8a9b9e707e0bb67b6363dda.jpg"
-				></img>
+				<img className={style.cart} src={cart} alt="добавить в корзину"></img>
 			</div>
 		</div>
 	);
