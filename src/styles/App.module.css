@@ -1,11 +1,6 @@
-
-.container{
-    width: 1339px;
-    margin-left: auto;
-    margin-right: auto;
+.content{
     margin-top: 15px;
-    display: grid;
-    grid-template-columns: 316px 1012px;
-    gap:35px;
+    display: flex;
+    justify-content: space-between;
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import style from "./GoodsContainer.module.css";
 import cart from "../../../../assets/img/Cart.png";
 
-const GoodsContainer = () => {
+const GoodsContainer = ({ item }) => {
 	return (
 		<div className={style.container}>
 			<svg className={style.sprite}>
@@ -25,7 +25,7 @@ const GoodsContainer = () => {
 
 			<div className={style.header}>
 				<div className={style.article}>
-					<span>Код : 12345</span>
+					<span>{item.article}</span>
 				</div>
 				<div className={style.icons}>
 					<svg className={style.heartSvg}>
@@ -46,18 +46,18 @@ const GoodsContainer = () => {
 				/>
 			</div>
 
-			<div className={style.rating}>Рейтинг</div>
+			<div className={style.rating}>{item.raiting}</div>
 
-			<div className={style.description}>
-				<span>ASIC Miner для майнинга криптовалютных криптовалют</span>
-			</div>
+			<div className={style.description}>{item.decription}</div>
 
-			<div className={style.inStock}>
-				<span>Есть в наличии</span>
-			</div>
+			{item.isExist ? (
+				<span className={style.inStock}>Нет в наличии</span>
+			) : (
+				<span className={style.inStock}>В наличии</span>
+			)}
 
 			<div className={style.price}>
-				<span className={style.numerus}>183000Р</span>
+				<span className={style.numerus}>{item.price}</span>
 
 				<img className={style.cart} src={cart} alt="добавить в корзину"></img>
 			</div>

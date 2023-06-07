@@ -3,14 +3,10 @@
 }
 
 .headerMain {
-    
-    width: 1339px;
-    
-    margin-left: auto;
-    margin-right: auto;
     min-height: 36px;
     display: flex;
     justify-content: right;
+    
 }
 
 .topMenuUl {

@@ -83,15 +83,18 @@
 /* Description */
 
 .description {
-    margin-top: 7px;
+
+    margin-top: 5px;
+    min-height: 90px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
+   
 
-    /* Text */
+    overflow: hidden;
 
     color: #333333;
 }
@@ -100,7 +103,7 @@
 
 .inStock {
 
-    margin-top: 7px;
+    
 
     font-family: 'Roboto';
     font-style: normal;
@@ -116,12 +119,9 @@
 
 .price {
 
-    padding-top: 40px;
-
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: space-between
 
 }
 

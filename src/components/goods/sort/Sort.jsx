@@ -10,42 +10,20 @@ const Sort = () => {
 	};
 
 	return (
-		<div className={style.container}>
-			<div className={style.sort}>
-				<span className={style.sortDescribe}>Сортировать по:</span>
+		<div className={style.sort}>
+			<span className={style.sortDescribe}>Сортировать по:</span>
 
-				<ul className={style.sortLi}>
-					{sortItems.map((item, index) => (
-						<li
-							onClick={() => changeActiveSort(index)}
-							className={active === index ? style.active : style.sortUl}
-						>
-							{item}
-						</li>
-					))}
-				</ul>
-
-				{/* <ul className={style.sortLi}>
+			<ul className={style.ulSort}>
+				{sortItems.map((item, index) => (
 					<li
-						onClick={() => changeActiveSort(0)}
-						className={active === 0 ? style.active : style.sortUl}
+						key={item}
+						onClick={() => changeActiveSort(index)}
+						className={active === index ? style.active : style.sortUl}
 					>
-						Цене
+						{item}
 					</li>
-					<li
-						onClick={() => changeActiveSort(1)}
-						className={active === 1 ? style.active : style.sortUl}
-					>
-						Популярности
-					</li>
-					<li
-						onClick={() => changeActiveSort(2)}
-						className={active === 2 ? style.active : style.sortUl}
-					>
-						Отзывам
-					</li>
-				</ul> */}
-			</div>
+				))}
+			</ul>
 		</div>
 	);
 };

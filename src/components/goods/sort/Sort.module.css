@@ -1,11 +1,10 @@
 .sort {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .sortDescribe {
-    margin-right: 20px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -14,6 +13,12 @@
 
  
     color: #9F9F9F;
+}
+
+.ulSort{
+
+    margin: 0px;
+    padding-left: 15px;
 }
 
 .sortUl {
