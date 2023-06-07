@@ -9,8 +9,8 @@ function App() {
 			<Header />
 
 			<div className={style.container}>
-				<LeftNavigationAfterSearch className={style.navigation} />
-				<GoodsAfterSearch className={style.goods} />
+				<LeftNavigationAfterSearch />
+				<GoodsAfterSearch />
 			</div>
 		</div>
 	);

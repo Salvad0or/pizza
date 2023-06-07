@@ -12,6 +12,7 @@ const GoodsAfterSearch = () => {
 			<GoodsContainer className={style.item} />
 			<GoodsContainer className={style.item} />
 			<GoodsContainer className={style.item} />
+			<GoodsContainer className={style.item} />
 		</div>
 	);
 };

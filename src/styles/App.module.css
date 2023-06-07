@@ -1,18 +1,11 @@
 
 .container{
-    width: 1328px;
+    width: 1339px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     display: grid;
     grid-template-columns: 316px 1012px;
-    gap:20px;
+    gap:35px;
 }
 
-.navigation{
-    grid-column: 1/2;
-}
-
-.goods{
-    grid-column: 2/2;
-}
