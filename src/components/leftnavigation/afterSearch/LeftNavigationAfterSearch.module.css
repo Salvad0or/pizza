@@ -1,0 +1,10 @@
+.container {
+    width: 316px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid gray;
+
+   
+
+}

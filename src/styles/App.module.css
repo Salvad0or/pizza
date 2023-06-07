@@ -1,4 +1,18 @@
+
+.container{
+    width: 1328px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 316px 1012px;
+    gap:20px;
+}
+
+.navigation{
+    grid-column: 1/2;
+}
+
 .goods{
-    display: flex;
-    margin: 0px;
+    grid-column: 2/2;
 }

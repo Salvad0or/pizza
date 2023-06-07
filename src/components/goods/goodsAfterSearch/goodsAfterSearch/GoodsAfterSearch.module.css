@@ -1,16 +1,5 @@
-.container {
-    width: 1339px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.goodsRow {
-    margin-top: 10px;
-    display: flex;
-    
-    
-}
-
-.goods{
-    padding-right: 17px;
+.wrapper{
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px;
+    gap:10px
 }
