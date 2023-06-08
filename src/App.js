@@ -6,15 +6,11 @@ import "../src/index";
 
 function App() {
 	return (
-		<div>
-			<Header />
-
-			<div className="container">
-				<div className={style.content}>
-					<LeftNavigationAfterSearch />
-					<GoodsAfterSearch />
-				</div>
-			</div>
+		<div className={style.content}>
+			<div className={style.header}>Ntrcn</div>
+			{/* <Header className={style.header} /> */}
+			<LeftNavigationAfterSearch className={style.leftMenu} />
+			<GoodsAfterSearch className={style.goods} />
 		</div>
 	);
 }
