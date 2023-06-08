@@ -3,7 +3,6 @@ import Header from "./components/header/Header";
 import LeftNavigationAfterSearch from "./components/leftnavigation/afterSearch/LeftNavigationAfterSearch";
 import style from "./styles/App.module.css";
 import "../src/index";
-import Sort from "./components/goods/sort/Sort";
 
 function App() {
 	return (
