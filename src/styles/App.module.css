@@ -1,6 +1,15 @@
-.content{
+/* .content{
     margin-top: 15px;
     display: flex;
-    justify-content: space-between;
+    
+} */
+
+.content{
+    display: grid;
+    
+}
+
+.leftMenu{
+    padding-right: 150px;
 }
 

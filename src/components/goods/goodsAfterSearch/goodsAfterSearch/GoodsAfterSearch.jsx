@@ -99,6 +99,7 @@ const GoodsAfterSearch = () => {
 			<div>
 				<Sort />
 			</div>
+
 			<div className={style.wrapper}>
 				{goods.map((item) => (
 					<GoodsContainer key={item.id} className={style.item} item={item} />

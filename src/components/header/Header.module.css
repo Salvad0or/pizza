@@ -1,11 +1,9 @@
-.headerContainer{
-    background-color: #202328;
-}
 
 .headerMain {
     min-height: 36px;
     display: flex;
     justify-content: right;
+    background-color: #202328;
     
 }
 
@@ -35,19 +33,14 @@
 
 .thirtyLevelHeader{
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 15px;
-    width: 100%;
     background: rgba(87, 65, 217, 0.04);
     min-height: 50px;
 
 }
 
-.thirtyLevelHeaderMain{
-    width: 1339px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-}
 
