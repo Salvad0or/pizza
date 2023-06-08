@@ -7,8 +7,10 @@ import "../src/index";
 function App() {
 	return (
 		<div className={style.content}>
-			<div className={style.header}>Ntrcn</div>
-			{/* <Header className={style.header} /> */}
+			<div className={style.header}>
+				<Header />
+			</div>
+
 			<LeftNavigationAfterSearch className={style.leftMenu} />
 			<GoodsAfterSearch className={style.goods} />
 		</div>
