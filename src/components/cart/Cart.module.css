@@ -33,7 +33,7 @@
     border-width: 1px 0px;
     border-style: solid;
     border-color: #E1DBF9;
-    grid-template-columns: 150px 408px 45px 69px 102px 17px;
+    grid-template-columns: 150px 408px 45px 112px 102px 17px;
     display: grid;
     grid-template-areas: 
     "cartGoodsPhoto  cartDescription  cartPrice  cartQuantity  cartFinalSum  cartUrn";
@@ -122,8 +122,59 @@
     letter-spacing: 0.095em;
 }
 
+/* +- */
 .cartQuantity{
     grid-area:cartQuantity ;
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    
+    width: 112px;
+    height: 42px;
+
+    border: 0.3px solid #9F9F9F;
+    border-radius: 5px;
+}
+
+.quantityMinus{
+    color:#CACDD7;
+    width:42px;
+    height: 32px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.quantityPlus{
+    color:#CACDD7;
+    width:42px;
+    height: 32px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.quantityInput{
+    color:#CACDD7;
+    width: 100%;
+    border: none;
+    text-align: center;
+
+    font-family: 'Roboto ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0%;
+    /* identical to box height, or 0px */
+
+    letter-spacing: 0.095em;
+
+/* Text */
+
+color: #333333;
+    
 }
 
 .cartFinalSum{
