@@ -49,7 +49,7 @@ const RightSide = () => {
 						<use href="#cart"></use>
 					</svg>
 
-					<NavLink className={style.liItemText} to="/cart">
+					<NavLink className={style.liItemText} to="cart">
 						Корзина
 					</NavLink>
 				</div>

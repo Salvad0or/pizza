@@ -7,22 +7,21 @@ import Cart from "./components/cart/Cart";
 import RouteNavigation from "./components/Routes/RouteNavigation";
 
 import Error from "./components/Errors/Error";
-import { Route, Routes } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
+import PageAfterSearch from "./components/Pages/PageAfterSearch";
 
 function App() {
 	return (
-		<div className={style.content}>
-			<div className={style.header}>
-				<Header />
-			</div>
-			<LeftNavigationAfterSearch className={style.leftMenu} />
-			<GoodsAfterSearch className={style.goods} />
+		<div>
+			<Header />
 
-			<Routes>
-				<Route path="/cart" element={<Cart />} />
-				<Route path="*" element={<Error />} />
-			</Routes>
-			{/* <RouteNavigation></RouteNavigation> */}
+			<div className={style.container}>
+				<Routes>
+					<Route path="/cart" element={<Cart />} />
+					<Route path="/search" element={<PageAfterSearch />} />
+					<Route path="*" element={<Error />} />
+				</Routes>
+			</div>
 		</div>
 	);
 }

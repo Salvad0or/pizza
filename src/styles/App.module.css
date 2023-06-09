@@ -1,33 +1,4 @@
-
-.content{
-   
-    display: grid;
-    grid-template-columns: 322px 988px;
-    row-gap: 20px;
-    justify-content: center;
-
-    grid-template-areas: 
-    "header     header "
-    "leftMenu   goods";
+.container{
+    max-width: 1339px;
+    margin: 0 auto;
 }
-
-.header{
-    grid-area: header;
-  
-}
-
-.leftMenu{
-
-    grid-area: leftMenu;
-
-}
-
-.goods{
-    grid-area: goods;
-
-}
-
-.cart{
-    grid-area: cart;
-}
-
