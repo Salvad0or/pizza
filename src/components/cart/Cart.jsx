@@ -29,7 +29,13 @@ const Cart = () => {
 					<div className={style.cartPrice}>
 						<span className={style.cartPiceSum}>614Р</span>
 					</div>
-					<div className={style.cartQuantity}></div>
+
+					<div className={style.cartQuantity}>
+						<button className={style.quantityMinus}>-</button>
+						<input className={style.quantityInput}></input>
+						<button className={style.quantityPlus}>+</button>
+					</div>
+
 					<div className={style.cartFinalSum}></div>
 					<div className={style.cartUrn}></div>
 					<div className={style.rightSide}></div>
