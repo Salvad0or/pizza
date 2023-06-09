@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./RightSide.module.css";
+import { NavLink } from "react-router-dom";
 
 const RightSide = () => {
 	return (
@@ -47,7 +48,10 @@ const RightSide = () => {
 					<svg className={style.svg}>
 						<use href="#cart"></use>
 					</svg>
-					<span className={style.liItemText}>Корзина</span>
+
+					<NavLink className={style.liItemText} to="/cart">
+						Корзина
+					</NavLink>
 				</div>
 			</li>
 		</ul>

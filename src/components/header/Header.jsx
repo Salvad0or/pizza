@@ -3,6 +3,7 @@ import style from "./Header.module.css";
 import MyInput from "../UI/MyInput";
 import RightSide from "./rightSide/RightSide";
 import "../../../src/index";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 	return (
