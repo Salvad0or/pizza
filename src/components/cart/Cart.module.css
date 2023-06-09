@@ -1,0 +1,142 @@
+.cart{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0%;
+    
+
+    letter-spacing: 0.215em;
+
+  
+
+    color: #333333;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 983px 305px;
+    margin-top:60px;
+    grid-template-areas: 
+    "leftSide     rightSide";
+    gap:10px;
+
+
+}
+
+
+
+.leftSide{
+    grid-area:leftSide ;
+    padding: 15px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #E1DBF9;
+    grid-template-columns: 150px 408px 45px 69px 102px 17px;
+    display: grid;
+    grid-template-areas: 
+    "cartGoodsPhoto  cartDescription  cartPrice  cartQuantity  cartFinalSum  cartUrn";
+
+}
+
+.cartGoodsPhoto{
+  
+    grid-area:cartGoodsPhoto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkBox{
+    width: 20.65px;
+    height: 20px;
+    background: rgba(87, 65, 217, 0.07);
+    border-radius: 5px;
+}
+
+/* Description */
+
+.cartDescription{
+    grid-area:cartDescription ;
+}
+
+.descriprionTop{
+
+}
+
+.descriprionTopItems{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.descriprionTopItemName{
+
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+   
+    color: #333333;
+}
+.descriprionTopItemArticle{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 0%;
+    letter-spacing: 0.095em; 
+    color: #333333;
+
+    margin-left: 20px;
+}
+
+.cartDescriptionMain{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 0%;
+   
+
+    letter-spacing: 0.095em;
+
+
+    color: #9F9F9F;
+}
+
+/* Price */
+
+.cartPrice{
+    grid-area:cartPrice ;
+}
+
+.cartPiceSum{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 0%;
+    color: #333333;
+    letter-spacing: 0.095em;
+}
+
+.cartQuantity{
+    grid-area:cartQuantity ;
+}
+
+.cartFinalSum{
+    grid-area:cartFinalSum ;
+}
+
+.cartUrn{
+    grid-area:cartUrn ;
+}
+
+
+.rightSide{
+    grid-area:rightSide ;
+    display: flex;
+    justify-content: right;
+}

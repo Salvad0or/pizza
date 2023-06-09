@@ -27,3 +27,7 @@
 
 }
 
+.cart{
+    grid-area: cart;
+}
+
