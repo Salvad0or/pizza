@@ -179,12 +179,36 @@ color: #333333;
 
 .cartFinalSum{
     grid-area:cartFinalSum ;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    
+    letter-spacing: 0.095em;
+
+   
+
+    color: #333333;
 }
 
-.cartUrn{
+
+/* SVG */
+
+.cartSvg{
     grid-area:cartUrn ;
 }
 
+.sprite {
+    display: none;
+}
+
+.svg{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    fill:#BBB3B3;
+}
 
 .rightSide{
     grid-area:rightSide ;
