@@ -5,11 +5,9 @@ import RouteNavigation from "./components/Routes/RouteNavigation";
 
 function App() {
 	return (
-		<div>
+		<div className={style.container}>
 			<Header />
-			<div className={style.container}>
-				<RouteNavigation />
-			</div>
+			<RouteNavigation />
 		</div>
 	);
 }

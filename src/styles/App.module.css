@@ -1,4 +1,9 @@
 .container{
     max-width: 1339px;
     margin: 0 auto;
+    
+}
+
+.red{
+    background-color: red;
 }

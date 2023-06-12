@@ -1,11 +1,7 @@
-.headerBlackColor{
-    background-color: #202328;
-}
-.headerLightColor{
-    background: rgba(87, 65, 217, 0.04);
-}
 
 .headerMain {
+
+    background-color: #202328;
     min-height: 36px;
     display: flex;
     justify-content: right;
@@ -43,9 +39,13 @@
 
 .thirtyLevelHeader{
 
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 322px 988px;
     justify-content: space-between;
+
+    grid-template-areas: 
+    "catalog   rightSide";
+    background: rgba(87, 65, 217, 0.04);
     
 
     max-width: 1339px;
@@ -57,5 +57,36 @@
 
 }
 
+.catalog{
 
+    grid-area: catalog;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+   
+
+
+    color: #333333;
+}
+
+
+.rightSide{
+    grid-area: rightSide;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:1330px){
+    .rightSide{
+        justify-content: left;
+    }
+}
 

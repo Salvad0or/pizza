@@ -8,21 +8,20 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 	return (
 		<div>
-			<div className={style.headerBlackColor}>
-				<div className={style.headerMain}>
-					<div>
-						<ul className={style.topMenuUl}>
-							<li className={style.topMenuItem}>Контакты</li>
-							<li className={style.topMenuItem}>Сервис</li>
-							<li className={style.topMenuItem}>Получение и оплата</li>
-							<li className={style.topMenuItem}>О компании</li>
-						</ul>
-					</div>
+			<div className={style.headerMain}>
+				<div>
+					<ul className={style.topMenuUl}>
+						<li className={style.topMenuItem}>Контакты</li>
+						<li className={style.topMenuItem}>Сервис</li>
+						<li className={style.topMenuItem}>Получение и оплата</li>
+						<li className={style.topMenuItem}>О компании</li>
+					</ul>
 				</div>
 			</div>
 
-			<div className={style.headerLightColor}>
-				<div className={style.thirtyLevelHeader}>
+			<div className={style.thirtyLevelHeader}>
+				<span className={style.catalog}>Каталог товаров</span>
+				<div className={style.rightSide}>
 					<MyInput />
 					<RightSide />
 				</div>
