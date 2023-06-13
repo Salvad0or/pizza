@@ -6,8 +6,8 @@ import GoodsAfterSearch from "../goods/goodsAfterSearch/goodsAfterSearch/GoodsAf
 const PageAfterSearch = () => {
 	return (
 		<div className={style.content}>
-			<LeftNavigationAfterSearch className={style.leftMenu} />
-			<GoodsAfterSearch className={style.goods} />
+			<LeftNavigationAfterSearch />
+			<GoodsAfterSearch />
 		</div>
 	);
 };

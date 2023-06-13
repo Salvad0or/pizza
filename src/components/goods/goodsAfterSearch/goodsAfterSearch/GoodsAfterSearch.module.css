@@ -1,17 +1,5 @@
 .wrapper{
-    display: grid;
-    grid-template-columns: repeat(4,235px);
-    grid-column-gap:17px;
-    grid-row-gap: 10px;
-
-
-
-    
-}
-@media (max-width : 1330px){
-
-    .wrapper{
-        grid-template-columns: repeat(3,235px);
-    }
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
