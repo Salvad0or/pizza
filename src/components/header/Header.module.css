@@ -1,3 +1,14 @@
+.sprite{
+    display: none;
+}
+
+.svg{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    fill:rgba(25, 26, 29, 1);
+    padding-right: 5px;
+}
 
 .headerMain {
 
@@ -8,6 +19,36 @@
     max-width: 1339px;
  
     
+}
+
+/* Header-Middle */
+.headerMiddle{
+    min-height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerMiddlePhoneAndShops{
+    display: flex;
+}
+
+.phone{
+
+}
+
+.rect{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.phoneText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
 }
 
 .topMenuUl {
@@ -37,6 +78,9 @@
 .thirtyLevelHeader{
 
     display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
     
     background: rgba(87, 65, 217, 0.04); 
     
