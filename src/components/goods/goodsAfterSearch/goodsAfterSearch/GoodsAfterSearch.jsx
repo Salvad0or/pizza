@@ -4,20 +4,20 @@ import Sort from "../../sort/Sort";
 import GoodsContainer from "../goodsContainer/GoodsContainer";
 import "../../../../index";
 import Sceleton from "../../../UI/Loaders/Sceleton";
+import axios from "axios";
 
 const GoodsAfterSearch = () => {
 	const [goods, setGoods] = useState([]);
 	const [isLoading, setLoading] = useState(true);
-
 	const [sortItem, setSortItem] = useState({});
 
 	useEffect(() => {
-		fetch(
-			`https://6481ff8b29fa1c5c503271d7.mockapi.io/asics?sortBy=${sortItem}`
-		)
-			.then((res) => res.json())
-			.then((json) => {
-				setGoods(json);
+		axios
+			.get(
+				`https://6481ff8b29fa1c5c503271d7.mockapi.io/asics?sortBy=${sortItem}`
+			)
+			.then((result) => {
+				setGoods(result.data);
 				setLoading(false);
 			});
 	}, [sortItem]);
@@ -25,7 +25,7 @@ const GoodsAfterSearch = () => {
 	return (
 		<div>
 			<div>
-				<Sort />
+				<Sort changeSortItem={setSortItem} />
 			</div>
 			<div className={style.wrapper}>
 				{isLoading

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import style from "./Header.module.css";
 import MyInput from "../UI/MyInput";
 import RightSide from "./rightSide/RightSide";
@@ -6,8 +6,16 @@ import "../../../src/index";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/img/Logo.png";
 import rect from "../../assets/img/Rectangle1.png";
+import debounce from "lodash.debounce";
 
 const Header = () => {
+	const changeInput = useCallback(
+		debounce((value) => {
+			console.log(value);
+		}, 500),
+		[]
+	);
+
 	return (
 		<div>
 			<svg className={style.sprite}>
@@ -63,7 +71,7 @@ const Header = () => {
 			<div className={style.thirtyLevelHeader}>
 				<span className={style.catalog}>Каталог товаров</span>
 				<div className={style.rightSide}>
-					<MyInput />
+					<MyInput onChange={(event) => changeInput(event.target.value)} />
 					<RightSide />
 				</div>
 			</div>
