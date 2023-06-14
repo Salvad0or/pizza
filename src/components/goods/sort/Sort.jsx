@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import style from "./Sort.module.css";
+import { useSelector } from "react-redux";
 
 const Sort = ({ changeSortItem }) => {
 	const [active, setActive] = useState(0);
 
-	const sortItems = [
-		{ name: "Цене", sortType: "price" },
-		{ name: "Популярности", sortType: "raiting" },
-	];
+	const sortItems = useSelector((state) => state.sortSlice.sort);
 
 	const changeActiveSort = (index, sortType) => {
 		setActive(index);

@@ -25,7 +25,7 @@ const GoodsAfterSearch = () => {
 	return (
 		<div>
 			<div>
-				<Sort changeSortItem={setSortItem} />
+				<Sort />
 			</div>
 			<div className={style.wrapper}>
 				{isLoading

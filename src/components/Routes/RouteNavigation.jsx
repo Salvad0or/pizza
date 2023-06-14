@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Cart from "../cart/Cart";
 import PageAfterSearch from "../Pages/PageAfterSearch";
-import Error from "../Errors/Error";
+import Error from "../errors/Error";
 
 const RouteNavigation = () => {
 	return (
