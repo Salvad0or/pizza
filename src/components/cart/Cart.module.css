@@ -15,8 +15,7 @@
 .container{
     display: flex;
     justify-content: space-between;
-
-
+    align-items: flex-start;
 }
 
 
@@ -204,10 +203,102 @@ color: #333333;
     width: 18px;
     height: 18px;
     fill:#BBB3B3;
+    padding: 15px;
 }
 
 .rightSide{
     
+    border: 1px solid gray;
+    width: 290px;
+    height: 226px;
     display: flex;
-    justify-content: right;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 11px;
+    
+}
+
+.rightSideText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightSideTextItog{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+    letter-spacing: 0.095em;
+
+    color: #333333;
+}
+
+.rightSideTextFinalSum{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0%;
+    
+    letter-spacing: 0.095em;
+    color: #333333;
+}
+
+.rightSideMiddleText{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0%;
+    display: flex;
+    justify-content: space-between;
+
+    letter-spacing: 0.095em;
+
+    color: #333333;
+}
+
+.rightSideMiddleTextFinalCount{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 0%;
+
+    letter-spacing: 0.095em;
+
+    color: #333333;
+
+}
+
+.rightSideInput{
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0%;
+    letter-spacing: 0.095em;
+    color: #9F9F9F;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.rightSideButton{
+    background: radial-gradient(97.38% 97.37% at 50% 2.63%, rgba(250, 247, 247, 0.2) 0%, rgba(0, 0, 0, 0) 100%), 
+    linear-gradient(180deg, #2A2067 0%, #5741D9 100%);
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
 }

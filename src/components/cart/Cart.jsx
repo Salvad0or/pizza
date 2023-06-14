@@ -80,7 +80,24 @@ const Cart = () => {
 						</svg>
 					</div>
 				</div>
-				<div className={style.rightSide}>Правая сторона</div>
+				<div className={style.rightSide}>
+					<div className={style.rightSideText}>
+						<span className={style.rightSideTextItog}>Итого : </span>
+						<span className={style.rightSideTextFinalSum}>614Р</span>
+					</div>
+
+					<div className={style.rightSideMiddleText}>
+						<span className={style.rightSideMiddleText}>Выбрано товаров: </span>
+						<span className={style.rightSideMiddleTextFinalCount}>1 шт</span>
+					</div>
+
+					<input
+						placeholder="Введите промокод"
+						className={style.rightSideInput}
+					/>
+
+					<button className={style.rightSideButton}>Оформить заказ</button>
+				</div>
 			</div>
 		</div>
 	);
