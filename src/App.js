@@ -12,17 +12,10 @@ function App() {
 	console.log(increace());
 
 	return (
-		<div>
-			<button onClick={() => dispatch(increace())}>;vfnm</button>
-			<span>{count}</span>
+		<div className={style.container}>
+			<Header />
+			<RouteNavigation />
 		</div>
-		// <div className={style.container}>
-		// 	<div>
-		// 		<span></span>
-		// 	</div>
-		// 	{/* <Header />
-		// 	<RouteNavigation /> */}
-		// </div>
 	);
 }
 

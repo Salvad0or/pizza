@@ -5,11 +5,8 @@
     min-height: 36px;
     display: flex;
     justify-content: right;
-   
-    width: 100%;
     max-width: 1339px;
-    margin: 0 auto;
-
+ 
     
 }
 
@@ -39,27 +36,15 @@
 
 .thirtyLevelHeader{
 
-    display: grid;
-    grid-template-columns: 322px 988px;
-    justify-content: space-between;
-
-    grid-template-areas: 
-    "catalog   rightSide";
-    background: rgba(87, 65, 217, 0.04);
+    display: flex;
     
-
-    max-width: 1339px;
-    margin: 0 auto;
-    margin-top: 15px;
-    
+    background: rgba(87, 65, 217, 0.04); 
     
     min-height: 50px;
 
 }
 
 .catalog{
-
-    grid-area: catalog;
 
     font-family: 'Fira Sans';
     font-style: normal;
@@ -77,7 +62,6 @@
 
 
 .rightSide{
-    grid-area: rightSide;
 
     display: flex;
     align-items: center;

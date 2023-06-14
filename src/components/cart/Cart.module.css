@@ -5,22 +5,16 @@
     font-size: 36px;
     line-height: 0%;
     
-
     letter-spacing: 0.215em;
 
-  
 
     color: #333333;
 }
 
 
 .container{
-    display: grid;
-    grid-template-columns: 983px 305px;
-    margin-top:60px;
-    grid-template-areas: 
-    "leftSide     rightSide";
-    gap:10px;
+    display: flex;
+    justify-content: space-between;
 
 
 }
@@ -28,15 +22,17 @@
 
 
 .leftSide{
-    grid-area:leftSide ;
+    
     padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-width: 1px 0px;
     border-style: solid;
     border-color: #E1DBF9;
-    grid-template-columns: 150px 408px 45px 112px 102px 17px;
-    display: grid;
-    grid-template-areas: 
-    "cartGoodsPhoto  cartDescription  cartPrice  cartQuantity  cartFinalSum  cartUrn";
+    min-width: none;
+    width: 983px;
+
 
 }
 
@@ -58,7 +54,7 @@
 /* Description */
 
 .cartDescription{
-    grid-area:cartDescription ;
+   
 }
 
 .descriprionTop{
@@ -109,7 +105,7 @@
 /* Price */
 
 .cartPrice{
-    grid-area:cartPrice ;
+   
 }
 
 .cartPiceSum{
@@ -124,7 +120,7 @@
 
 /* +- */
 .cartQuantity{
-    grid-area:cartQuantity ;
+    
     display: flex;
     align-items: center;
 
@@ -178,7 +174,7 @@ color: #333333;
 }
 
 .cartFinalSum{
-    grid-area:cartFinalSum ;
+   
 
     font-family: 'Roboto';
     font-style: normal;
@@ -196,7 +192,7 @@ color: #333333;
 /* SVG */
 
 .cartSvg{
-    grid-area:cartUrn ;
+    
 }
 
 .sprite {
@@ -211,7 +207,7 @@ color: #333333;
 }
 
 .rightSide{
-    grid-area:rightSide ;
+    
     display: flex;
     justify-content: right;
 }
