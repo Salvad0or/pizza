@@ -12,6 +12,7 @@ const RouteNavigation = () => {
 			<Route path="/" element={<Layout />}>
 				<Route index element={<HomePage />} />
 				<Route path="cart" element={<Cart />} />
+				<Route path="search" element={<PageAfterSearch />} />
 				<Route path="*" element={<Error />} />
 			</Route>
 		</Routes>

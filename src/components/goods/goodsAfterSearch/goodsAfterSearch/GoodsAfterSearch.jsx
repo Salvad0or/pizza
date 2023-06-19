@@ -5,8 +5,6 @@ import GoodsContainer from "../goodsContainer/GoodsContainer";
 import "../../../../index";
 import Sceleton from "../../../UI/Loaders/Sceleton";
 import axios from "axios";
-import { useDispatch } from "react-redux";
-import { addToCart } from "../../../../redux/slices/addToCartSlice";
 
 const GoodsAfterSearch = () => {
 	const [goods, setGoods] = useState([]);
@@ -24,24 +22,15 @@ const GoodsAfterSearch = () => {
 			});
 	}, [sortItem]);
 
-	const dispatch = useDispatch();
-
 	return (
 		<div>
-			<button onClick={() => dispatch(addToCart())}>":vfnm"</button>
 			<div>
 				<Sort changeSortItem={setSortItem} />
 			</div>
 			<div className={style.wrapper}>
 				{isLoading
 					? [...new Array(6)].map((_, index) => <Sceleton key={index} />)
-					: goods.map((item) => (
-							<GoodsContainer
-								key={item.id}
-								className={style.item}
-								item={item}
-							/>
-					  ))}
+					: goods.map((item) => <GoodsContainer key={item.id} item={item} />)}
 			</div>
 		</div>
 	);

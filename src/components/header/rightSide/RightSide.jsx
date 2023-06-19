@@ -3,6 +3,9 @@ import style from "./RightSide.module.css";
 import { NavLink } from "react-router-dom";
 
 const RightSide = () => {
+	const setActive = ({ isActive }) =>
+		isActive ? style.active : style.notActive;
+
 	return (
 		<ul className={style.ul}>
 			<svg className={style.sprite}>
@@ -49,7 +52,7 @@ const RightSide = () => {
 						<use href="#cart"></use>
 					</svg>
 
-					<NavLink className={style.liItemText} to="cart">
+					<NavLink className={setActive} to="cart">
 						Корзина
 					</NavLink>
 				</div>

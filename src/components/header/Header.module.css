@@ -1,3 +1,4 @@
+/* Основные настройки */
 .headerFirstLevel{
     background-color: #202328;
     width: 100%;
@@ -133,3 +134,77 @@
     }
 }
 
+/* Элементы социальных сетей на мидл уровне */
+.socialNetworks{
+
+    min-width: 336px;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgba(87, 65, 217, 0.1);
+    border-radius: 5px;
+
+}
+
+.socialNetworksElement{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.socialSvg{
+    height: 32px;
+    width: 32px;
+}
+
+.socialNetworksLink{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+   
+}
+
+.socialText{
+    margin-top: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+       
+
+    color: #333333;
+}
+
+/* Вход в личный кабинет */
+
+.enter{
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #333333;
+
+}
+
+.enterLink{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    
+
+
+    color: #333333;
+    text-decoration: none;
+}
