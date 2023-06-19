@@ -1,8 +1,13 @@
 import React from "react";
 import style from "./GoodsContainer.module.css";
 import cart from "../../../../assets/img/Cart.png";
+import { NavLink } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../../../redux/slices/addToCartSlice";
 
 const GoodsContainer = ({ item }) => {
+	const dispatch = useDispatch();
+
 	return (
 		<div className={style.container}>
 			<svg className={style.sprite}>
@@ -59,7 +64,12 @@ const GoodsContainer = ({ item }) => {
 			<div className={style.price}>
 				<span className={style.numerus}>{item.price}</span>
 
-				<img className={style.cart} src={cart} alt="добавить в корзину"></img>
+				<img
+					onClick={() => dispatch(addToCart(item))}
+					className={style.cart}
+					src={cart}
+					alt="добавить в корзину"
+				></img>
 			</div>
 		</div>
 	);

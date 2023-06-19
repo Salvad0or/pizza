@@ -1,8 +1,13 @@
 import React from "react";
 import style from "./Cart.module.css";
 import goodsPhoto from "../../assets/img/Photo.png";
+import { useSelector } from "react-redux";
 
 const Cart = () => {
+	const goodsInCart = useSelector((state) => state.addToCartSlice.goodsInCart);
+
+	console.log(goodsInCart);
+
 	return (
 		<div>
 			<h1 className={style.cart}>Корзина</h1>

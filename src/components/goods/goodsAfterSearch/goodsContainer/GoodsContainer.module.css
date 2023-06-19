@@ -142,5 +142,10 @@
 .cart {
     height: 35px;
     width: 35px;
+    cursor: pointer;
+    opacity: 90%;
+}
 
+.cart:hover{
+    opacity: 100%;
 }
