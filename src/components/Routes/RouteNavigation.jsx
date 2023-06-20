@@ -4,7 +4,7 @@ import Cart from "../cart/Cart";
 import PageAfterSearch from "../Pages/PageAfterSearch";
 import Error from "../errors/Error";
 import Layout from "../Pages/Layout/Layout";
-import HomePage from "../Pages/HomePage/HomePage";
+import HomePage from "../Pages/Home/HomePage";
 
 const RouteNavigation = () => {
 	return (
