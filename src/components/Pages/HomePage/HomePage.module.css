@@ -1,0 +1,58 @@
+.content{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sprite{
+    display: none;
+}
+
+/* Left-Menu */
+
+ul{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+   
+}
+
+li{
+    display: flex;
+   padding-bottom: 15px;
+    align-items: center;
+}
+
+.menuSvg{
+    width: 20px;
+    height: 20px;
+    padding-right: 2px;
+}
+
+a{
+    text-decoration: none;
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    color: #333333;
+
+}
+
+a:hover{
+    color:#5741D9;
+}
+
+.leftMenu{
+    box-sizing: border-box;
+    min-width: 316px;
+    border: 1px solid rgba(87, 65, 217, 1);
+    padding: 15px;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+
+}

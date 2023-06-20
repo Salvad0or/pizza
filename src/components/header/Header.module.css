@@ -97,8 +97,6 @@
     display: flex;
     justify-content: space-between;
     
-    margin-bottom: 25px;
-    
     
     min-height: 50px;
 
@@ -106,18 +104,35 @@
 
 .catalog{
 
+    box-sizing: border-box;
+
+    
+
     font-family: 'Fira Sans';
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
+    font-weight: 450;
+    font-size: 23px;
+    
 
     display: flex;
     align-items: center;
-   
+    min-width: 316px;
+
+    background-color: #5741D9;
+    border-radius: 5px 5px 0px 0px;
+
+    padding: 15px;
 
 
-    color: #333333;
+    color: #FFFFFF;
+}
+
+.menuSvg{
+    width: 23px;
+    height: 23px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    fill:#FFFFFF;
 }
 
 

@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import LeftMenu from "./LeftMenu";
+import style from "./HomePage.module.css";
 
 const HomePage = () => {
 	return (
-		<div>
-			<div>It will be a home page</div>
+		<div className={style.content}>
+			<LeftMenu />
 			<NavLink to="search">К товарам</NavLink>
 		</div>
 	);
