@@ -11,14 +11,14 @@
 
 /* Left-Menu */
 
-ul{
+.leftMenuUl{
     list-style: none;
     margin:0px;
     padding: 0px;
    
 }
 
-li{
+.leftMenuli{
     display: flex;
    padding-bottom: 15px;
     align-items: center;
@@ -30,7 +30,7 @@ li{
     padding-right: 2px;
 }
 
-a{
+.leftMenuLink{
     text-decoration: none;
 
     
@@ -43,7 +43,7 @@ a{
 
 }
 
-a:hover{
+.leftMenuLink:hover{
     color:#5741D9;
 }
 

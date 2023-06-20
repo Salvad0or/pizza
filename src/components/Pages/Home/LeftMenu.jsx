@@ -243,24 +243,26 @@ const LeftMenu = () => {
 				</symbol>
 			</svg>
 
-			<ul>
-				<li>
+			<ul className={style.leftMenuUl}>
+				<li className={style.leftMenuli}>
 					<svg className={style.menuSvg}>
 						<use href="#mining" />
 					</svg>
-					<NavLink>Асики</NavLink>
+					<NavLink className={style.leftMenuLink}>Асики</NavLink>
 				</li>
-				<li>
-					<NavLink>Блоки питания</NavLink>
+				<li className={style.leftMenuli}>
+					<NavLink className={style.leftMenuLink}>Блоки питания</NavLink>
 				</li>
-				<li>
-					<NavLink>Рейзеры</NavLink>
+				<li className={style.leftMenuli}>
+					<NavLink className={style.leftMenuLink}>Рейзеры</NavLink>
 				</li>
-				<li>
-					<NavLink>Серверные вентиляторы</NavLink>
+				<li className={style.leftMenuli}>
+					<NavLink className={style.leftMenuLink}>
+						Серверные вентиляторы
+					</NavLink>
 				</li>
-				<li>
-					<NavLink>Чипы для асиков</NavLink>
+				<li className={style.leftMenuli}>
+					<NavLink className={style.leftMenuLink}>Чипы для асиков</NavLink>
 				</li>
 			</ul>
 		</div>
