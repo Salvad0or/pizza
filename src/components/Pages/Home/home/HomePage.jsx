@@ -2,13 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import LeftMenu from "./LeftMenu";
 import style from "./HomePage.module.css";
-import MainPageSlider from "../../UI/Sliders/SliderOnManePage/MainPageSlider";
-import asic1 from "../../../assets/img/slider/asic1.jpg";
-import asic2 from "../../../assets/img/slider/asic2.jpg";
-import asic3 from "../../../assets/img/slider/asic3.jpg";
-import GoodsOfMonth from "./goodsOfMonth/GoodsOfMonth";
-import Stock from "./stock/Stock";
-import AsicService from "./asicService/AsicService";
+import MainPageSlider from "../../../UI/Sliders/SliderOnManePage/MainPageSlider";
+import asic1 from "../../../../assets/img/slider/asic1.jpg";
+import asic2 from "../../../../assets/img/slider/asic2.jpg";
+import asic3 from "../../../../assets/img/slider/asic3.jpg";
+import GoodsOfMonth from "../goodsOfMonth/GoodsOfMonth";
+import Stock from "../stock/Stock";
+import AsicService from "../asicService/AsicService";
 
 const HomePage = () => {
 	return (
