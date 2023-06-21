@@ -50,6 +50,7 @@
 .leftMenu{
     box-sizing: border-box;
     min-width: 316px;
+    height: 250px;
     border: 1px solid rgba(87, 65, 217, 1);
     padding: 15px;
     border-top: none;
@@ -62,3 +63,35 @@
     width: 988px;
     height: 400px;
 }
+
+.homeMiddleNavigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttonContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 260px;
+    height: 89px;
+    margin-top: 40px;
+
+    text-align: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+   
+    color: #FFFFFF;
+
+    background: radial-gradient(97.38% 97.37% at 50% 2.63%, rgba(250, 247, 247, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, #2A2067 0%, #5741D9 100%);
+    border-radius: 7px;
+}
+

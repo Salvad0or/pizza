@@ -17,7 +17,13 @@ const HomePage = () => {
 					<img src={asic2} alt="asic" />
 					<img src={asic3} alt="asic" />
 				</MainPageSlider>
-				<NavLink to="search">К товарам</NavLink>
+
+				<div className={style.homeMiddleNavigation}>
+					<div className={style.buttonContainer}>Контейнеры</div>
+					<div className={style.buttonContainer}>Ремонтный сервис</div>
+					<div className={style.buttonContainer}>Майнинг под ключ</div>
+				</div>
+				{/* <NavLink to="search">К товарам</NavLink> */}
 			</div>
 		</div>
 	);
