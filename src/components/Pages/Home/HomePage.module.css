@@ -1,4 +1,4 @@
-.content{
+.mainContent{
    
     display: flex;
     justify-content: space-between;
@@ -95,3 +95,16 @@
     border-radius: 7px;
 }
 
+.offers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offersConainer{
+    margin-top: 35px;
+    width: 306px;
+    height: 200px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}

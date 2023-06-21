@@ -1,0 +1,113 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+
+    margin-top: 30px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Text */
+
+    color: #333333;
+}
+
+.slice{
+    display: none;
+}
+
+.goodsContainer{
+
+    width: 200px;
+    height: 337px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.goodsHigh{
+    display: flex;
+}
+
+.goodsIcons{
+    display: flex;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+
+    fill:rgba(220, 220, 220, 1);
+}
+
+.goodsDescription{
+    width: 200px;
+    height: 75px;
+
+    margin-top: 5px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.lastPrice{
+    display: flex;
+    align-items: center;
+}
+.lastPriceText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+
+    /* Highest text */
+
+    color: #9F9F9F;
+}
+
+.lastPriceBox{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-left:5px;
+    padding: 7px;
+    
+
+    color: #5741D9;
+
+    background: #FFE049;
+    border-radius: 5px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finalPrice{
+
+    margin-top: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+   
+
+    color: #212121;
+}
