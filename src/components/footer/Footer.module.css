@@ -1,4 +1,10 @@
+.slice{
+    display: none;
+}
+
+
 .footer{
+    margin-top: 100px;
     height: 413px;
     background: #202328;
     width: 100%;
@@ -7,7 +13,7 @@
     max-width: 1339px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
     padding: 57px 0px;
 }
@@ -25,7 +31,9 @@
     padding: 0px;
 }
 
+
 .liHeader{
+    margin-top: 13px;
     margin-bottom: 23px;
     font-family: 'Raleway';
     font-style: normal;
@@ -51,4 +59,127 @@
     text-decoration-line: underline;
 
     color: #FFFFFF;
+}
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.lowerText{
+    margin-top: 5px;
+    display: block;
+
+    color: #FFF;
+    font-size: 13px;
+    font-family: Raleway;
+    font-weight: 300;
+ 
+    letter-spacing: 2.15px;
+}
+
+/* Right-Side */
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}   
+
+.phoneBlock{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.phone{
+    margin-left: 10px;
+    display: flex;
+
+    color: var(--light-bg, #FAFAFA);
+    font-size: 30px;
+    font-family: Open Sans;
+
+    letter-spacing: 6.45px;
+}
+
+.svg{
+    width: 16px;
+    height: 16px;
+
+    fill:#FAFAFA
+}
+
+.adress{
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;
+   
+    letter-spacing: 3.44px;
+    margin-bottom: 35px;
+}
+
+.adressText{
+    display: block;
+}
+
+.followText{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 700;
+   
+    letter-spacing: 4.3px;
+    margin-bottom: 15px;
+}
+
+.socialNetworks{
+
+    min-width: 336px;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgba(87, 65, 217, 0.1);
+    border-radius: 5px;
+
+}
+
+.socialNetworksElement{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.socialSvg{
+    height: 32px;
+    width: 32px;
+}
+
+.socialNetworksLink{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+   
+}
+
+.socialText{
+    margin-top: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+       
+
+    color: #FFF;
 }
